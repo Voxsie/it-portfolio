@@ -1,0 +1,54 @@
+.navbar {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    padding: 30px 0;
+}
+
+@media (max-width: 768px ) {
+    .navbar-inverse {
+        padding: 15px 0;
+    }
+}
+.navbar-inverse {
+    background-color: #1abc9c;
+    border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #222222;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.progress-bar-theme {
+    background-color: #1abc9c;
+}
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
