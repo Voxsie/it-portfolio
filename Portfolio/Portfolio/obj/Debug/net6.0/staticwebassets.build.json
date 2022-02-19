@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NLrmwpEts6BToJjnvh9egpPVfWPb+vKA/LIM4GQFIyo=",
+  "Hash": "3LX/1fr4YQS8ceAkRhSIdjNAH+fJggStp3FfssE8Mho=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot/css/header.css"
     },
     {
-      "Identity": "/Users/zheltikov/RiderProjects/Portfolio/Portfolio/wwwroot/css/index.css",
+      "Identity": "/Users/zheltikov/RiderProjects/Portfolio/Portfolio/wwwroot/css/main-page.css",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/zheltikov/RiderProjects/Portfolio/Portfolio/wwwroot/",
       "BasePath": "_content/Portfolio",
-      "RelativePath": "css/index.css",
+      "RelativePath": "css/main-page.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/index.css"
+      "OriginalItemSpec": "wwwroot/css/main-page.css"
     },
     {
       "Identity": "/Users/zheltikov/RiderProjects/Portfolio/Portfolio/wwwroot/css/site.css",
