@@ -1,9 +1,14 @@
+using Microsoft.Extensions.DependencyInjection;
 using Portfolio.Misc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddTransient<EmailSender>();
+builder.Services.AddSingleton<EmailSender>();
+builder.Services.AddSingleton(builder.Configuration
+    .GetSection("EmailConfiguration")
+    .Get<EmailConfiguration>());
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

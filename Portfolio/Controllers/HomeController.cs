@@ -24,7 +24,7 @@ public class HomeController : Controller
 
     public IActionResult SendEmail()
     {
-        _emailSender.SendEmail("test", "test header");
+        _emailSender.SendEmail("content", "header");
         return RedirectToAction("Index");
     }
     public IActionResult Privacy()
