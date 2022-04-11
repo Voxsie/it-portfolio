@@ -1,0 +1,12 @@
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.deps.json
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\bin\Debug\net6.0\Portfolio.Misc.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.csproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.AssemblyInfo.cs
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.csproj.CoreCompileInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\refint\Portfolio.Misc.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\Portfolio.Misc.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Misc\obj\Debug\net6.0\ref\Portfolio.Misc.dll
