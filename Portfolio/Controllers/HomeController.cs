@@ -9,24 +9,23 @@ namespace Portfolio.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly EmailSender _emailSender;
 
-    public HomeController(ILogger<HomeController> logger, EmailSender emailSender)
+    public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        _emailSender = emailSender;
     }
-
+    
     public IActionResult Index()
     {
         return View();
     }
-
-    public IActionResult SendEmail()
+  
+    
+    /*public IActionResult SendEmail()
     {
         _emailSender.SendEmail("content", "header");
         return RedirectToAction("Index");
-    }
+    }*/
     public IActionResult Privacy()
     {
         return View();

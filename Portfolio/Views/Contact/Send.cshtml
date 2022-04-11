@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <form asp-controller="Contact" asp-action="Send" method="post">
+        <label for="yourName">Your name:</label><br>
+        <input type="text" id="yourName" name="YourName"><br>
+        <label for="yourEmail">Your Email:</label><br>
+        <input type="text" id="yourEmail" name="YourEmail"><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="Subject"><br>
+        <label for="message">Message</label><br>
+        <input type="text" id="message" name="Message"><br>
+        <input type="submit" value="Submit"/>
+    </form>
+        
+</div>
+    
+</body>
+</html>

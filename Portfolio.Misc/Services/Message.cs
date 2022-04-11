@@ -9,18 +9,19 @@ public class Message
     public string Content  { get; set; }
     public MimeMessage MimeMessage { get; set; }
 
-    public Message(string header, string content)
+    public Message(string header, string content, string reciever)
     {
         Header = header;
         Content = content;
+        Receiver = reciever;
         MimeMessage = CreateMessage(Header, CreateBody(Content));
+        MimeMessage.To.Add(new MailboxAddress("reciever", $"{Receiver}"));
     }
     
     public MimeMessage CreateMessage(string header, MimeEntity bodyEntity)
     {
         MimeMessage message = new MimeMessage();
         message.From.Add(new MailboxAddress("отправитель", "whoomipark@gmail.com" ));
-        message.To.Add(new MailboxAddress("получатель", "tyurina.vladislava@gmail.com"));
         message.Subject = header;
         message.Body = bodyEntity;
         return message;
