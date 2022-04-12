@@ -3,7 +3,8 @@
 namespace Portfolio.Misc.Services;
 
 public class Message
-{ public MimeMessage MimeMessage { get; set; }
+{ 
+    public MimeMessage MimeMessage { get; set; }
     
     public EmailConfiguration Configuration;
 

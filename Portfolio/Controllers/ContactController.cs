@@ -25,6 +25,7 @@ public class ContactController : Controller
         return View();
     }
     
+    [HttpGet]
     public IActionResult Send()
     {
         return View();
@@ -35,7 +36,10 @@ public class ContactController : Controller
     {
         try
         {
-            _emailSender.SendEmail(requestModel.MessageBody, requestModel.Subject, requestModel.YourEmail);
+            if (ModelState.IsValid)
+            {
+                 _emailSender.SendEmail(requestModel.MessageBody, requestModel.Subject, requestModel.YourEmail);
+            }
         }
         catch (Exception e)
         {

@@ -13,7 +13,6 @@ public class EmailSender : IEmailSender
         _logger = logger;
         _emailConfiguration = emailConfiguration;
     }
-    
 
     public void SendEmail(string mesBody, string mesHeader, string mesReciever)
     {
@@ -39,5 +38,5 @@ public class EmailSender : IEmailSender
                 client.Dispose();
             }
         }
-}
+    }
 }

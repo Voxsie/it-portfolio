@@ -11,6 +11,4 @@ public class Context : IdentityDbContext<User>
     {
         Database.EnsureCreated();
     }
-
-    public DbSet<User> Users { get; set; }
 }
