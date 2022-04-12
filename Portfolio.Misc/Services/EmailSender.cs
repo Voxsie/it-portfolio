@@ -17,7 +17,7 @@ public class EmailSender : IEmailSender
 
     public void SendEmail(string mesBody, string mesHeader, string mesReciever)
     {
-        var message = new Message(mesHeader, mesBody, mesReciever);
+        var message = new Message(mesHeader, mesBody, mesReciever, _emailConfiguration);
         using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
         {
             try

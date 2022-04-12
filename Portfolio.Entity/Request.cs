@@ -1,6 +1,6 @@
-﻿namespace Portfolio.Models;
+﻿namespace Portfolio.Entity;
 
-public class EmailRequestModel
+public class Request
 {
     public string YourName { get; set; }
     public string YourEmail { get; set; }

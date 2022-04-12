@@ -4,6 +4,162 @@
     "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj",
+        "projectName": "Portfolio.DataAccess",
+        "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Владислава\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Владислава\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
+                "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "projectName": "Portfolio.Entity",
+        "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
+        "packagesPath": "C:\\Users\\Владислава\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Владислава\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -43,6 +199,10 @@
             "MailKit": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -96,6 +256,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj"
+              },
+              "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
+                "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj"
+              },
               "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj": {
                 "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Misc\\Portfolio.Misc.csproj"
               }
@@ -111,6 +277,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,14 @@
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.deps.json
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.runtimeconfig.json
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\bin\Debug\net6.0\Portfolio.Entity.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.csproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.AssemblyInfo.cs
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\refint\Portfolio.Entity.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\Portfolio.Entity.genruntimeconfig.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.Entity\obj\Debug\net6.0\ref\Portfolio.Entity.dll

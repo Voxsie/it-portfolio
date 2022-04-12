@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Portfolio.Entity;
 using Portfolio.Misc.Services;
 using Portfolio.Models;
 
@@ -30,7 +31,7 @@ public class ContactController : Controller
     }
     
     [HttpPost]
-    public IActionResult Send(EmailRequestModel requestModel)
+    public IActionResult Send(Request requestModel)
     {
         try
         {

@@ -1,0 +1,17 @@
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.DataAccess.deps.json
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.DataAccess.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.DataAccess.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.Entity.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.Entity.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.AssemblyInfo.cs
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.csproj.CopyComplete
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\refint\Portfolio.DataAccess.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.pdb
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\ref\Portfolio.DataAccess.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\bin\Debug\net6.0\Portfolio.DataAccess.runtimeconfig.json
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio.DataAccess\obj\Debug\net6.0\Portfolio.DataAccess.genruntimeconfig.cache
