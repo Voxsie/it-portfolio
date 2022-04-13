@@ -14,10 +14,14 @@ builder.Services.AddSingleton(builder.Configuration
     .Get<EmailConfiguration>());
 builder.Services.AddDbContext<Context>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
-builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<Context>();
-
+builder.Services
+    .AddIdentity<User, IdentityRole>(options => 
+        options.User.AllowedUserNameCharacters.Contains(" "))
+    .AddEntityFrameworkStores<Context>();
 
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 

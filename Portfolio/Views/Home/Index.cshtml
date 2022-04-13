@@ -54,6 +54,19 @@
           <li><a href="about.html">About</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
+          @if(User.Identity.IsAuthenticated)
+          {
+              <p>@User.Identity.Name</p>
+           
+              <form method="post" asp-controller="Auth" asp-action="Logout">
+                  <input type="submit" value="Выход" />
+              </form>
+          }
+          else
+          {
+              <a asp-controller="Auth" asp-action="Login">Вход</a>
+              <a asp-controller="Auth" asp-action="Register">Регистрация</a>
+          }
         </ul>
       </div>
       <!--/.nav-collapse -->

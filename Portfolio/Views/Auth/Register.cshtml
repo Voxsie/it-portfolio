@@ -1,17 +1,18 @@
 ﻿@model Portfolio.ViewModels.RegisterViewModel
+
 <h2>Регистрация нового пользователя</h2>
-<form method="post" asp-controller="Account" asp-action="Register">
-    <div></div>
+<form method="post" asp-controller="Auth" asp-action="Register">
+    <div asp-validation-summary="ModelOnly"></div>
     <div>
         <label asp-for="Email"></label><br />
         <input asp-for="Email" />
         <span asp-validation-for="Email"></span>
     </div>
     <div>
-        <label asp-for="UserName"></label><br />
-        <input asp-for="UserName" />
-        <span asp-validation-for="UserName"></span>
-    </div>
+            <label asp-for="UserName"></label><br />
+            <input asp-for="UserName" />
+            <span asp-validation-for="UserName"></span>
+        </div>
     <div>
         <label asp-for="Password"></label><br />
         <input asp-for="Password" />

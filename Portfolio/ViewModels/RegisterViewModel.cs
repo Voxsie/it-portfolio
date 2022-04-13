@@ -7,15 +7,11 @@ public class RegisterViewModel
     [Required]
     [Display(Name = "Email")]
     public string Email { get; set; }
- 
+    
     [Required]
-    [Display(Name = "Пользователь")]
+    [Display(Name = "Email")]
     public string UserName { get; set; }
 
-    /*[Required]
-    [Display(Name = "Год Рождения")]
-    public int BirthYear { get; set; }*/
-    
     [Required]
     [DataType(DataType.Password)]
     [Display(Name = "Пароль")]
