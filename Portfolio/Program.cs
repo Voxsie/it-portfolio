@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Portfolio.DataAccess;
@@ -12,13 +13,18 @@ builder.Services.AddSingleton<EmailSender>();
 builder.Services.AddSingleton(builder.Configuration
     .GetSection("EmailConfiguration")
     .Get<EmailConfiguration>());
+
 builder.Services.AddDbContext<Context>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 builder.Services
     .AddIdentity<User, IdentityRole>(options => 
         options.User.AllowedUserNameCharacters.Contains(" "))
     .AddEntityFrameworkStores<Context>();
-
+builder.Services.AddLocalization(opts =>
+    { opts.ResourcesPath = ("Resources");});
+builder.Services.AddMvc()
+    .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+    .AddDataAnnotationsLocalization();
 builder.Services.AddControllersWithViews();
 
 
@@ -41,8 +47,22 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
+var supportedLangs = new [] {"ru", "eng"};
+var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedLangs[1])
+    .AddSupportedCultures(supportedLangs)
+    .AddSupportedUICultures(supportedLangs);
+
+app.UseRequestLocalization(localizationOptions);
+
+/*app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");*/
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();

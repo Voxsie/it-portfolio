@@ -88,3 +88,11 @@ C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\bin\Debug\net6.0
 C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\bin\Debug\net6.0\ru\Portfolio.resources.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\Portfolio.Resources.Views.Home.Index.ru.resources
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\Portfolio.csproj.GenerateResource.cache
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\ru\Portfolio.resources.cs
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\ru\Portfolio.resources.dll
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\Portfolio.Resources.Controllers.Home.HomeController.resources
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\Portfolio.Resources.Controllers.Home.HomeController.ru.resources
+C:\Users\Владислава\RiderProjects\Portfolio\Portfolio\obj\Debug\net6.0\Portfolio.Resources.Views.Home.Index.resources

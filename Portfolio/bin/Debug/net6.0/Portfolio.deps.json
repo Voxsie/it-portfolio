@@ -17,6 +17,11 @@
         },
         "runtime": {
           "Portfolio.dll": {}
+        },
+        "resources": {
+          "ru/Portfolio.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "Azure.Core/1.6.0": {

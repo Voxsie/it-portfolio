@@ -1,4 +1,6 @@
-﻿@{
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer _localizer
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -50,22 +52,22 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="work.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="work.html">@_localizer["Work"]</a></li>
+          <li><a href="about.html">@_localizer["About"]</a></li>
+          <li><a href="blog.html">@_localizer["Blog"]</a></li>
+          <li><a href="contact.html">@_localizer["Contact"]</a></li>
           @if(User.Identity.IsAuthenticated)
           {
               <p>@User.Identity.Name</p>
            
               <form method="post" asp-controller="Auth" asp-action="Logout">
-                  <input type="submit" value="Выход" />
+                  <input type="submit" value="@_localizer["Logout"]" />
               </form>
           }
           else
           {
-              <a asp-controller="Auth" asp-action="Login">Вход</a>
-              <a asp-controller="Auth" asp-action="Register">Регистрация</a>
+              <a asp-controller="Auth" asp-action="Login">@_localizer["Login"]</a>
+              <a asp-controller="Auth" asp-action="Register">@_localizer["Register"]</a>
           }
         </ul>
       </div>
@@ -79,10 +81,9 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 centered">
           <img src="img/user.png" alt="Stanley">
-          <h1>Hi, I am Stanley!</h1>
-          <p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
-          <p>Please, consider to register to <a href="#">our newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
-
+          <h1>@_localizer["Hi"]</h1>
+          <p>@_localizer["Paragraf1"]</p>
+          <p>@_localizer["Paragraf2"]</p>
         </div>
         <!-- /col-lg-8 -->
       </div>
