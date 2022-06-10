@@ -1893,26 +1893,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Владислава\\.nuget\\packages\\": {}
+    "/Users/ila/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
+      "projectUniqueName": "/Users/ila/Documents/Github/Portfolio/Portfolio.Entity/Portfolio.Entity.csproj",
       "projectName": "Portfolio.Entity",
-      "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj",
-      "packagesPath": "C:\\Users\\Владислава\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\obj\\",
+      "projectPath": "/Users/ila/Documents/Github/Portfolio/Portfolio.Entity/Portfolio.Entity.csproj",
+      "packagesPath": "/Users/ila/.nuget/packages/",
+      "outputPath": "/Users/ila/Documents/Github/Portfolio/Portfolio.Entity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Владислава\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ila/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1965,7 +1963,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/ila/.dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

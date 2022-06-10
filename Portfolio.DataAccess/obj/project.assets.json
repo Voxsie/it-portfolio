@@ -3779,34 +3779,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Владислава\\.nuget\\packages\\": {}
+    "/Users/ila/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj",
+      "projectUniqueName": "/Users/ila/Documents/Github/Portfolio/Portfolio.DataAccess/Portfolio.DataAccess.csproj",
       "projectName": "Portfolio.DataAccess",
-      "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\Portfolio.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Владислава\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.DataAccess\\obj\\",
+      "projectPath": "/Users/ila/Documents/Github/Portfolio/Portfolio.DataAccess/Portfolio.DataAccess.csproj",
+      "packagesPath": "/Users/ila/.nuget/packages/",
+      "outputPath": "/Users/ila/Documents/Github/Portfolio/Portfolio.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Владислава\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ila/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj": {
-              "projectPath": "C:\\Users\\Владислава\\RiderProjects\\Portfolio\\Portfolio.Entity\\Portfolio.Entity.csproj"
+            "/Users/ila/Documents/Github/Portfolio/Portfolio.Entity/Portfolio.Entity.csproj": {
+              "projectPath": "/Users/ila/Documents/Github/Portfolio/Portfolio.Entity/Portfolio.Entity.csproj"
             }
           }
         }
@@ -3859,7 +3857,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/ila/.dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }
